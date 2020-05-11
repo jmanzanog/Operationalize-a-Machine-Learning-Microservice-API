@@ -1,0 +1,9 @@
+➜  Operationalize-a-Machine-Learning-Microservice-API git:(master) ✗ sh run_kubernetes.sh
+pod/development created
+NAME          READY   STATUS              RESTARTS   AGE
+development   0/1     ContainerCreating   0          0s
+service "development" exposed
+➜  Operationalize-a-Machine-Learning-Microservice-API git:(master) ✗ kubectl get pods
+NAME          READY   STATUS    RESTARTS   AGE
+development   1/1     Running   0          52s
+➜  Operationalize-a-Machine-Learning-Microservice-API git:(master) ✗
