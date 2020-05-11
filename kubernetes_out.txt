@@ -7,3 +7,11 @@ service "development" exposed
 NAME          READY   STATUS    RESTARTS   AGE
 development   1/1     Running   0          52s
 ➜  Operationalize-a-Machine-Learning-Microservice-API git:(master) ✗
+
+➜  Operationalize-a-Machine-Learning-Microservice-API git:(master) ✗sh make_prediction.sh
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
